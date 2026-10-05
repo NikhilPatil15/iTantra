@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "checksums": {
+    "script_coding.json": "38a6871f1049e8eee3a97bc5896d845114cafa2144f2eb6f908f75cf19d95fde",
+    "headers.json": "38f1525a4a30354c899f0cebc3cdcbf0a85bec6530f5026c80176822bf9d2f15",
+    "confidence.json": "4718e71fa541e917ed03b6a3f90916da3b445b85256aa86ed90d88fad996df2b",
+    "frames.json": "d3e263f53dce18ebc3420f8ed619feed9fe660b2efb4fa15cdad64dc584256a5"
+  }
+}

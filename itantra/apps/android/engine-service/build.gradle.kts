@@ -1,0 +1,20 @@
+plugins {
+    kotlin("jvm")
+}
+
+kotlin {
+    jvmToolchain(17)
+}
+
+dependencies {
+    implementation(project(":core-protocol"))
+    implementation(project(":core-speech"))
+    implementation(project(":core-transport"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+    testImplementation(kotlin("test"))
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+}
+
+tasks.test {
+    useJUnitPlatform()
+}

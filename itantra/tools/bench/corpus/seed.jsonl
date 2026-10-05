@@ -1,0 +1,28 @@
+{"id":"hi-001","lang":"hi","text":"नदी का पानी तेजी से बढ़ रहा है, नाव भेजिए।","source":"seed"}
+{"id":"hi-002","lang":"hi","text":"रास्ता बंद है, दूसरा रास्ता बताइए।","source":"seed"}
+{"id":"hi-003","lang":"hi","text":"यहाँ पीने का पानी नहीं है।","source":"seed"}
+{"id":"hi-004","lang":"hi","text":"दो लोग घायल हैं, जल्दी मदद भेजिए।","source":"seed"}
+{"id":"hi-005","lang":"hi","text":"हम सुरक्षित हैं, गाँव में बारह लोग हैं।","source":"seed"}
+{"id":"en-001","lang":"en","text":"The river is rising fast, send a boat.","source":"seed"}
+{"id":"en-002","lang":"en","text":"The road is blocked, tell us another route.","source":"seed"}
+{"id":"en-003","lang":"en","text":"We have no drinking water here.","source":"seed"}
+{"id":"en-004","lang":"en","text":"Two people are injured, send help quickly.","source":"seed"}
+{"id":"en-005","lang":"en","text":"We are safe, twelve people are in the village.","source":"seed"}
+{"id":"bn-001","lang":"bn","text":"নদীর জল দ্রুত বাড়ছে, একটি নৌকা পাঠান।","source":"seed"}
+{"id":"bn-002","lang":"bn","text":"রাস্তা বন্ধ, অন্য পথ বলুন।","source":"seed"}
+{"id":"bn-003","lang":"bn","text":"এখানে খাওয়ার জল নেই।","source":"seed"}
+{"id":"ta-001","lang":"ta","text":"ஆற்று நீர் வேகமாக உயர்கிறது, படகு அனுப்புங்கள்.","source":"seed"}
+{"id":"ta-002","lang":"ta","text":"சாலை மூடப்பட்டுள்ளது, வேறு வழி சொல்லுங்கள்.","source":"seed"}
+{"id":"te-001","lang":"te","text":"నది నీరు వేగంగా పెరుగుతోంది, పడవ పంపండి.","source":"seed"}
+{"id":"te-002","lang":"te","text":"రోడ్డు మూసివేయబడింది, మరో మార్గం చెప్పండి.","source":"seed"}
+{"id":"kn-001","lang":"kn","text":"ನದಿಯ ನೀರು ವೇಗವಾಗಿ ಏರುತ್ತಿದೆ, ದೋಣಿ ಕಳುಹಿಸಿ.","source":"seed"}
+{"id":"ml-001","lang":"ml","text":"നദിയിലെ വെള്ളം വേഗത്തിൽ ഉയരുന്നു, ബോട്ട് അയക്കൂ.","source":"seed"}
+{"id":"mr-001","lang":"mr","text":"नदीचे पाणी वेगाने वाढत आहे, होडी पाठवा.","source":"seed"}
+{"id":"gu-001","lang":"gu","text":"નદીનું પાણી ઝડપથી વધી રહ્યું છે, હોડી મોકલો.","source":"seed"}
+{"id":"or-001","lang":"or","text":"ନଦୀର ପାଣି ଶୀଘ୍ର ବଢ଼ୁଛି, ଏକ ଡଙ୍ଗା ପଠାନ୍ତୁ।","source":"seed"}
+{"id":"pa-001","lang":"pa","text":"ਨਦੀ ਦਾ ਪਾਣੀ ਤੇਜ਼ੀ ਨਾਲ ਵੱਧ ਰਿਹਾ ਹੈ, ਕਿਸ਼ਤੀ ਭੇਜੋ।","source":"seed"}
+{"id":"hi-006","lang":"hi","text":"मदद चाहिए","source":"preset"}
+{"id":"hi-007","lang":"hi","text":"घायल हैं","source":"preset"}
+{"id":"hi-008","lang":"hi","text":"नाव चाहिए","source":"preset"}
+{"id":"en-006","lang":"en","text":"Need help","source":"preset"}
+{"id":"en-007","lang":"en","text":"Need water","source":"preset"}

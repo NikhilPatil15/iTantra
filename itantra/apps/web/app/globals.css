@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+/*
+ * iTantra design tokens, plan Section 16.2. Exposed as CSS variables and switched by
+ * [data-theme="night"]. Contrast ratios are rough; verify with a contrast tool before shipping.
+ */
+:root,
+:root[data-theme="day"] {
+  --chalk: #eef1f0;
+  --vellum: #fafbfa;
+  --ink: #13232f;
+  --slate: #566571;
+  --rule: #c9d1d5;
+  --ultramarine: #2a3fd0;
+  --ultramarine-tint: #e1e5fb;
+  --beacon: #d42a1f;
+  --beacon-tint: #fbe3e1;
+  --amber-ink: #8a5a00;
+  --amber: #f3b43f;
+  --lichen: #2c7548;
+  --scrim: rgba(19, 35, 47, 0.45);
+  color-scheme: light;
+}
+
+:root[data-theme="night"] {
+  --chalk: #0f1a22;
+  --vellum: #172631;
+  --ink: #e6edf0;
+  --slate: #9aaab4;
+  --rule: #2b3b47;
+  --ultramarine: #8fa0ff;
+  --ultramarine-tint: #232f6b;
+  --beacon: #ff6b5e;
+  --beacon-tint: #4a1f1c;
+  --amber-ink: #f3b43f;
+  --amber: #f3b43f;
+  --lichen: #6fd08f;
+  --scrim: rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--chalk);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-ui);
+  font-size: 17px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+:root {
+  --font-ui: ui-sans-serif, system-ui, "Atkinson Hyperlegible", "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, monospace;
+}
+
+/* Indic scripts: line height must accommodate stacked conjuncts (plan 16.3). */
+:lang(hi),
+:lang(mr),
+:lang(bn),
+:lang(gu),
+:lang(or),
+:lang(pa) {
+  line-height: 1.7;
+  font-family: "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Gujarati", "Noto Sans Gurmukhi", "Noto Sans Oriya", var(--font-ui);
+}
+:lang(ta) { line-height: 1.75; font-family: "Noto Sans Tamil", var(--font-ui); }
+:lang(te) { line-height: 1.75; font-family: "Noto Sans Telugu", var(--font-ui); }
+:lang(kn) { line-height: 1.75; font-family: "Noto Sans Kannada", var(--font-ui); }
+:lang(ml) { line-height: 1.75; font-family: "Noto Sans Malayalam", var(--font-ui); }
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.rule {
+  border-color: var(--rule);
+}
+
+/* Focus ring, plan 16.9. */
+:focus-visible {
+  outline: 3px solid var(--ultramarine);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Wavy underline for uncertain words. Never colour alone: also used with a marker. */
+.wavy {
+  text-decoration: underline wavy var(--amber);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/*
+ * Brand surface tokens for the public site (landing / about / Lab), inspired by a warm
+ * orange-coral palette with navy dark mode. The field screens keep the high-contrast tokens
+ * above because they must stay legible in sunlight with gloves (plan Section 16).
+ */
+:root,
+:root[data-theme="day"] {
+  --brand-bg: 0 0% 100%;
+  --brand-fg: 0 0% 17.3%;
+  --brand-card: 0 0% 99%;
+  --brand-muted: 10 100% 98%;
+  --brand-muted-fg: 0 0% 40%;
+  --brand-border: 0 0% 90%;
+  --brand-primary: 22 100% 66%;
+  --brand-primary-fg: 0 0% 100%;
+  --brand-accent: 339 100% 71%;
+  --brand-accent-fg: 0 0% 100%;
+  --brand-gradient-from: #ef5c76;
+  --brand-gradient-to: #ffb56b;
+  --brand-radius: 0.8rem;
+  --brand-ring: 22 100% 66%;
+}
+
+:root[data-theme="night"] {
+  --brand-bg: 216 71% 6%;
+  --brand-fg: 0 0% 98%;
+  --brand-card: 216 71% 10%;
+  --brand-muted: 216 71% 12%;
+  --brand-muted-fg: 0 0% 62%;
+  --brand-border: 216 71% 15%;
+  --brand-primary: 22 100% 66%;
+  --brand-primary-fg: 0 0% 100%;
+  --brand-accent: 339 100% 71%;
+  --brand-accent-fg: 0 0% 100%;
+  --brand-gradient-from: #ef5c76;
+  --brand-gradient-to: #ffb56b;
+  --brand-radius: 0.8rem;
+  --brand-ring: 22 100% 66%;
+}
+
+.brand-page {
+  background: hsl(var(--brand-bg));
+  color: hsl(var(--brand-fg));
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+.brand-display {
+  font-family: var(--font-lexend), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+.brand-hand {
+  font-family: var(--font-patrick), ui-sans-serif, system-ui, sans-serif;
+}
+.brand-card {
+  background: hsl(var(--brand-card));
+  border: 1.5px solid hsl(var(--brand-border));
+  border-radius: var(--brand-radius);
+}
+.brand-muted {
+  color: hsl(var(--brand-muted-fg));
+}
+.brand-border {
+  border-color: hsl(var(--brand-border));
+}
+.brand-gradient-text {
+  background-image: linear-gradient(90deg, hsl(var(--brand-primary)), hsl(var(--brand-accent)));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.brand-grid-bg {
+  background-image: radial-gradient(hsl(var(--brand-border)) 1px, transparent 1px);
+  background-size: 22px 22px;
+}

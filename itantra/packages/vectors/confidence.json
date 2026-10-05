@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "name": "none",
+      "words": 0,
+      "flags": [],
+      "bytes": ""
+    },
+    {
+      "name": "one-low",
+      "words": 1,
+      "flags": [
+        true
+      ],
+      "bytes": "80"
+    },
+    {
+      "name": "eight",
+      "words": 8,
+      "flags": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "bytes": "93"
+    },
+    {
+      "name": "nine",
+      "words": 9,
+      "flags": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "bytes": "5500"
+    },
+    {
+      "name": "sixty-four",
+      "words": 64,
+      "flags": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "bytes": "8888888888888888"
+    }
+  ]
+}

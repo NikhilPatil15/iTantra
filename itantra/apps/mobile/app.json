@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "iTantra",
+    "slug": "itantra",
+    "scheme": "itantra",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "dev.itantra.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_ADVERTISE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "NEARBY_WIFI_DEVICES",
+        "POST_NOTIFICATIONS",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_MICROPHONE",
+        "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+        "MODIFY_AUDIO_SETTINGS",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ]
+    },
+    "plugins": ["expo-router", "./plugins/withOfflineManifest", "./plugins/withReleaseSigning"]
+  }
+}

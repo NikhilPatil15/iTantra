@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "lang": "en",
+  "note": "Preset alerts. reviewed=false means a native speaker has not yet signed off; unreviewed entries are excluded from release builds (plan 9.6).",
+  "phrases": [
+    { "id": 1, "text": "Need help", "reviewed": false },
+    { "id": 2, "text": "People injured", "reviewed": false },
+    { "id": 3, "text": "Need water", "reviewed": false },
+    { "id": 4, "text": "Need a boat", "reviewed": false },
+    { "id": 5, "text": "Fire", "reviewed": false },
+    { "id": 6, "text": "Road blocked", "reviewed": false },
+    { "id": 7, "text": "All safe", "reviewed": false },
+    { "id": 8, "text": "Location shared", "reviewed": false }
+  ]
+}

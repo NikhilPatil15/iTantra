@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "name": "text-routine",
+      "header": {
+        "version": 1,
+        "type": 1,
+        "priority": 0,
+        "needAck": true,
+        "hasConf": false,
+        "fragment": false,
+        "codebook": false,
+        "reserved": 0,
+        "language": 1,
+        "senderId": 1,
+        "seq": 1,
+        "ageSeconds": 0,
+        "hops": 0,
+        "payloadLen": 8
+      },
+      "bytes": "112001000100010000000800"
+    },
+    {
+      "name": "alert-phrase",
+      "header": {
+        "version": 1,
+        "type": 2,
+        "priority": 2,
+        "needAck": true,
+        "hasConf": false,
+        "fragment": false,
+        "codebook": true,
+        "reserved": 0,
+        "language": 5,
+        "senderId": 48879,
+        "seq": 65535,
+        "ageSeconds": 4660,
+        "hops": 3,
+        "payloadLen": 3
+      },
+      "bytes": "12a405beefffff1234030300"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "name": "pure-hindi",
+      "lang": "hi",
+      "text": "नदी का पानी तेजी से बढ़ रहा है।",
+      "bytes": "a8a6c02095be20aabea8c020a4c79cc020b8c720aca2bc20b0b9be20b9c806"
+    },
+    {
+      "name": "pure-tamil",
+      "lang": "ta",
+      "text": "ஆற்று நீர் வேகமாக உயர்கிறது.",
+      "bytes": "86b1cdb1c120a8c0b0cd20b5c795aebe952089afb0cd95bfb1a4c12e"
+    },
+    {
+      "name": "hindi-with-english",
+      "lang": "hi",
+      "text": "पानी rising near the bridge है",
+      "bytes": "aabea8c020726973696e67206e656172207468652062726964676520b9c8"
+    },
+    {
+      "name": "joiners",
+      "lang": "hi",
+      "text": "क्‍ष‌त्रिय",
+      "bytes": "95cd03b704a4cdb0bfaf"
+    },
+    {
+      "name": "danda-in-bengali",
+      "lang": "bn",
+      "text": "জল বাড়ছে। এখনই আসুন।",
+      "bytes": "9cb220acbea1bc9bc706208f96a8872086b8c1a806"
+    },
+    {
+      "name": "emoji",
+      "lang": "hi",
+      "text": "बाढ़ 😀 आ गई",
+      "bytes": "acbea2bc200201f6002086209788"
+    },
+    {
+      "name": "empty",
+      "lang": "hi",
+      "text": "",
+      "bytes": ""
+    },
+    {
+      "name": "ascii-english",
+      "lang": "en",
+      "text": "Send a boat at once.\nNow",
+      "bytes": "53656e64206120626f6174206174206f6e63652e0a4e6f77"
+    }
+  ]
+}

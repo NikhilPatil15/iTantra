@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "algorithm": "chacha20-poly1305",
+  "cases": [
+    {
+      "name": "text-hindi",
+      "headerInput": {
+        "type": 1,
+        "language": 1,
+        "senderId": 258,
+        "seq": 10,
+        "ageSeconds": 3,
+        "priority": 1,
+        "needAck": true
+      },
+      "payload": "0faabea8c020aca2bc20b0b9be20b9c8",
+      "frame": "1160010102000a0003001000e1b904aef61b76aefd43de14e557389f95b4c55b1b474d6e9dd875516ea3c23a",
+      "key": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f20",
+      "salt": "deadbeef",
+      "epoch": 1,
+      "seq": 10
+    },
+    {
+      "name": "ack",
+      "headerInput": {
+        "type": 4,
+        "language": 1,
+        "senderId": 259,
+        "seq": 11,
+        "ageSeconds": 1,
+        "priority": 0
+      },
+      "payload": "01000a80000000",
+      "frame": "1400010103000b000100070097c9a2b7c85f0acccd4cda4f4daa9da40a6f462e0c3a2c",
+      "key": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f20",
+      "salt": "deadbeef",
+      "epoch": 1,
+      "seq": 11
+    },
+    {
+      "name": "phrase-alert",
+      "headerInput": {
+        "type": 2,
+        "language": 1,
+        "senderId": 258,
+        "seq": 12,
+        "ageSeconds": 0,
+        "priority": 2,
+        "needAck": true,
+        "codebook": true
+      },
+      "payload": "000301",
+      "frame": "12a4010102000c0000000300a61bf4e4cde3c72a6d00caaf00c96ec53f7a2c",
+      "key": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f20",
+      "salt": "deadbeef",
+      "epoch": 1,
+      "seq": 12
+    }
+  ]
+}

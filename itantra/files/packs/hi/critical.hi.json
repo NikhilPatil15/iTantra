@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "lang": "hi",
+  "note": "Word lists for the critical-token guard (plan 9.2). Digits are always critical. reviewed=false means a native speaker has not yet signed off.",
+  "reviewed": false,
+  "numberWords": [
+    "एक", "दो", "तीन", "चार", "पाँच", "छह", "सात", "आठ", "नौ", "दस",
+    "बीस", "पचास", "सौ", "हज़ार"
+  ],
+  "lexicon": [
+    { "word": "पानी", "category": "water" },
+    { "word": "दवा", "category": "medicine" },
+    { "word": "घायल", "category": "injury" },
+    { "word": "आग", "category": "fire" },
+    { "word": "रास्ता", "category": "road" },
+    { "word": "गाँव", "category": "place" },
+    { "word": "नाव", "category": "rescue" }
+  ]
+}

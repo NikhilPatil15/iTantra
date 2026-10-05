@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-29T15:49:38Z",
+  "machine": "nikhil-Inspiron-3505 (Linux-7.0.0-31-generic-x86_64-with-glibc2.39)",
+  "dataset": "seed.jsonl",
+  "sample_count": 28,
+  "note": "sample data unless the corpus field names a licensed public corpus; codec=typescript",
+  "corpus_sha256": {
+    "tools/bench/corpus/seed.jsonl": "7bfd76818c4adec355b65019716c4f8a905d25d2a0b74b6eb51147e36849ac03"
+  },
+  "tool": "tools/bench/bench.py",
+  "codec_implementation": "typescript"
+}

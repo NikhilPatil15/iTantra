@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "lang": "en",
+  "note": "Word lists for the critical-token guard (plan 9.2). Digits are always critical. reviewed=false means a native speaker has not yet signed off.",
+  "reviewed": false,
+  "numberWords": [
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    "twenty", "fifty", "hundred", "thousand"
+  ],
+  "lexicon": [
+    { "word": "water", "category": "water" },
+    { "word": "medicine", "category": "medicine" },
+    { "word": "injured", "category": "injury" },
+    { "word": "fire", "category": "fire" },
+    { "word": "road", "category": "road" },
+    { "word": "village", "category": "place" },
+    { "word": "boat", "category": "rescue" }
+  ]
+}

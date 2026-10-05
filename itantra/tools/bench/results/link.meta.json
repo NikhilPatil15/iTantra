@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-29T15:49:19Z",
+  "machine": "nikhil-Inspiron-3505 (Linux-7.0.0-31-generic-x86_64-with-glibc2.39)",
+  "dataset": "simulation: presets x loss x disconnects",
+  "sample_count": 120,
+  "note": "seeded link simulation, not a hardware measurement; noise/speakers not involved",
+  "corpus_sha256": {},
+  "tool": "tools/bench/bench.py"
+}

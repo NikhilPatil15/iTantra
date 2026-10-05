@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "lang": "hi",
+  "note": "Preset alerts. reviewed=false means a native speaker has not yet signed off; unreviewed entries are excluded from release builds (plan 9.6).",
+  "phrases": [
+    { "id": 1, "text": "मदद चाहिए", "en": "Need help", "reviewed": false },
+    { "id": 2, "text": "घायल हैं", "en": "People injured", "reviewed": false },
+    { "id": 3, "text": "पानी चाहिए", "en": "Need water", "reviewed": false },
+    { "id": 4, "text": "नाव चाहिए", "en": "Need a boat", "reviewed": false },
+    { "id": 5, "text": "आग लगी है", "en": "Fire", "reviewed": false },
+    { "id": 6, "text": "रास्ता बंद है", "en": "Road blocked", "reviewed": false },
+    { "id": 7, "text": "सब सुरक्षित हैं", "en": "All safe", "reviewed": false },
+    { "id": 8, "text": "स्थान भेजा", "en": "Location shared", "reviewed": false }
+  ]
+}

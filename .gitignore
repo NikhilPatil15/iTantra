@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / JS
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/dist-export/
+**/*.tsbuildinfo
+**/.turbo/
+**/playwright-report/
+**/test-results/
+
+# Android / Gradle
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+*.apk
+*.aab
+*.keystore
+itantra/apps/mobile/credentials/
+
+# Expo
+**/.expo/
+
+# Copied build artifacts served by the web app
+itantra/apps/web/public/results/
+itantra/apps/web/public/generated/
+
+# Misc
+*.log
+.DS_Store
+.idea/
+.vscode/
